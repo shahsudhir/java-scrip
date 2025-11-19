@@ -32,3 +32,19 @@
 
 // const array3=array1.splice(1,4)
 // console.log(array3);
+
+
+
+const Marvel=['thor', 'Ironman', 'spiderMan']
+const dc=['superMan', 'flas','batman']
+
+// Marvel.push(dc)
+// console.log(Marvel)
+// console.log(Marvel[3][2])
+
+// const Marvel1=Marvel.concat(dc)
+
+// console.log(Marvel1)
+
+// const Marvel2=[...Marvel,...dc]
+console.log(Array.from("sudhirshah"))
