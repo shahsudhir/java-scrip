@@ -39,16 +39,28 @@
 //         }
 
 //     }
-// }
-// console.log(newUser.fullName)
+// // }
+// // console.log(newUser.fullName)
 
-const obj1={1:"a",2:"b"}
-const obj2={3:"aa",4:"add"}
-//const obj3=Object.assign(obj1,obj2)
+// const obj1={1:"a",2:"b"}
+// const obj2={3:"aa",4:"add"}
+// //const obj3=Object.assign(obj1,obj2)
+// // console.log(obj3)
+// const obj3={...obj1,...obj2}
 // console.log(obj3)
-const obj3={...obj1,...obj2}
-console.log(obj3)
 
-console.log(Object.keys(obj1))
-console.log(Object.values(obj2))
-console.log(Object.entries(obj2))
+// console.log(Object.keys(obj1))
+// console.log(Object.values(obj2))
+// console.log(Object.entries(obj2))
+
+// const course={
+//     courseName:'jsinhindi',
+//     price:"999",
+//     courseInstructor:"sudhir"
+// }
+// // console.log(course)
+// //course.price
+// const {price:p}=course
+// console.log(p);
+
+
